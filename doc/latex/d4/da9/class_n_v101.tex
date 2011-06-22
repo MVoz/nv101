@@ -1,0 +1,173 @@
+\hypertarget{class_n_v101}{
+\section{Класс NV101}
+\label{d4/da9/class_n_v101}\index{NV101@{NV101}}
+}
+
+
+This class implements the interface for using the device Eltex NV-\/101.  
+
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_n_v101_ac7249ef2c3bee8463c0481a95062c2c6}{NV101} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_n_v101}{NV101} $\ast$ \hyperlink{class_n_v101_a3ad4c8787cc817ee47b450aae185e526}{instance} ()
+\item 
+static void \hyperlink{class_n_v101_acf36a25efc769d71cf406a7b77c66282}{play} (const QUrl \&source)
+\begin{DoxyCompactList}\small\item\em Starts playback the media data from the specified source. \end{DoxyCompactList}\item 
+static void \hyperlink{class_n_v101_acacb87596e5568af2ebe0c953f7cd204}{play} ()
+\begin{DoxyCompactList}\small\item\em Starts playback of media data from the source after the \hyperlink{class_n_v101_a28421157983681c1dbdbdcc1b504aaea}{pause()} function has been called. \end{DoxyCompactList}\item 
+static void \hyperlink{class_n_v101_a28421157983681c1dbdbdcc1b504aaea}{pause} ()
+\begin{DoxyCompactList}\small\item\em Pauses the playback. \end{DoxyCompactList}\item 
+static void \hyperlink{class_n_v101_a55a43171a935456326f093f21d2ee554}{stop} ()
+\begin{DoxyCompactList}\small\item\em Stops the playback. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+This class implements the interface for using the device Eltex NV-\/101. 
+
+For this class we using a singleton pattern. 
+
+См. определение в файле nv101.h строка 14
+
+
+
+\subsection{Конструктор(ы)}
+\hypertarget{class_n_v101_ac7249ef2c3bee8463c0481a95062c2c6}{
+\index{NV101@{NV101}!NV101@{NV101}}
+\index{NV101@{NV101}!NV101@{NV101}}
+\subsubsection[{NV101}]{\setlength{\rightskip}{0pt plus 5cm}NV101::NV101 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}
+\label{d4/da9/class_n_v101_ac7249ef2c3bee8463c0481a95062c2c6}
+
+
+Default constructor for class. 
+
+This function sets a \_\-self pointer. 
+
+См. определение в файле nv101.cpp строка 18
+
+
+
+\subsection{Методы}
+\hypertarget{class_n_v101_a3ad4c8787cc817ee47b450aae185e526}{
+\index{NV101@{NV101}!instance@{instance}}
+\index{instance@{instance}!NV101@{NV101}}
+\subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf NV101} $\ast$ NV101::instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, static\mbox{]}}}}
+\label{d4/da9/class_n_v101_a3ad4c8787cc817ee47b450aae185e526}
+Returns a pointer to the application's \hyperlink{class_n_v101}{NV101} instance. If no instance has been allocated, null is returned. 
+
+См. определение в файле nv101.h строка 34
+
+\hypertarget{class_n_v101_a28421157983681c1dbdbdcc1b504aaea}{
+\index{NV101@{NV101}!pause@{pause}}
+\index{pause@{pause}!NV101@{NV101}}
+\subsubsection[{pause}]{\setlength{\rightskip}{0pt plus 5cm}void NV101::pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{d4/da9/class_n_v101_a28421157983681c1dbdbdcc1b504aaea}
+
+
+Pauses the playback. 
+
+\begin{DoxyNote}{Заметки}
+This functions is not supported for stream media data 
+\end{DoxyNote}
+
+
+TODO: Make support this function 
+
+
+
+См. определение в файле nv101.cpp строка 72
+
+\hypertarget{class_n_v101_acf36a25efc769d71cf406a7b77c66282}{
+\index{NV101@{NV101}!play@{play}}
+\index{play@{play}!NV101@{NV101}}
+\subsubsection[{play}]{\setlength{\rightskip}{0pt plus 5cm}void NV101::play (
+\begin{DoxyParamCaption}
+\item[{const QUrl \&}]{source}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{d4/da9/class_n_v101_acf36a25efc769d71cf406a7b77c66282}
+
+
+Starts playback the media data from the specified source. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em source} & address of the resource \\
+\hline
+\end{DoxyParams}
+
+
+TODO: Make support this function 
+
+
+
+См. определение в файле nv101.cpp строка 45
+
+\hypertarget{class_n_v101_acacb87596e5568af2ebe0c953f7cd204}{
+\index{NV101@{NV101}!play@{play}}
+\index{play@{play}!NV101@{NV101}}
+\subsubsection[{play}]{\setlength{\rightskip}{0pt plus 5cm}void NV101::play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{d4/da9/class_n_v101_acacb87596e5568af2ebe0c953f7cd204}
+
+
+Starts playback of media data from the source after the \hyperlink{class_n_v101_a28421157983681c1dbdbdcc1b504aaea}{pause()} function has been called. 
+
+\begin{DoxyNote}{Заметки}
+This functions is not supported for stream media data 
+\end{DoxyNote}
+
+
+TODO: Make support this function 
+
+
+
+См. определение в файле nv101.cpp строка 59
+
+\hypertarget{class_n_v101_a55a43171a935456326f093f21d2ee554}{
+\index{NV101@{NV101}!stop@{stop}}
+\index{stop@{stop}!NV101@{NV101}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}void NV101::stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{d4/da9/class_n_v101_a55a43171a935456326f093f21d2ee554}
+
+
+Stops the playback. 
+
+
+
+TODO: Make support this function 
+
+
+
+См. определение в файле nv101.cpp строка 85
+
+
+
+Объявления и описания членов классов находятся в файлах:\begin{DoxyCompactItemize}
+\item 
+nv101.h\item 
+nv101.cpp\end{DoxyCompactItemize}
